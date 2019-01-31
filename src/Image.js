@@ -28,7 +28,7 @@ export default class Image extends React.Component<ImageProps, ImageState> {
     mounted = true;
 
     static defaultProps = {
-        transitionDuration: 600,
+        transitionDuration: 500,
         tint: "dark"
     };
 
