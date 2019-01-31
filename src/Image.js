@@ -29,7 +29,7 @@ export default class Image extends React.Component<ImageProps, ImageState> {
 
     static defaultProps = {
         transitionDuration: 300,
-        tint: "dark"
+        tint: "light"
     };
 
     state = {
